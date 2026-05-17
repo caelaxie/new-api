@@ -334,4 +334,4 @@ It's also technically possible (though unlikely) for the rollback write to fail,
 - **Subscription path**: well-designed with `requestId` idempotency, proper transactions, and retry logic.
 - **Trust bypass**: correctly avoids unnecessary writes for high-balance users.
 - **Batch update mode**: practical mitigation for write amplification when eventual consistency is acceptable.
-- **Two-phase model**: semantically correct — the design philosophy is sound, only the wallet implementation needs hardening.
+<!--- **Two-phase model**: semantically correct — the design philosophy is sound, only the wallet implementation needs hardening.-->
